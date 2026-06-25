@@ -65,5 +65,5 @@ To successfully run the local development server and execute the automated test 
 ## 🔄 Technical Note: Developer Data Reset
 If you want to clear your changes and force the application to instantly wipe out localStorage and re-populate the UI with the original pristine test_data.json, open your browser’s Developer Tools Console (F12) and run:
 
-localStorage.removeItem('agency_projects'); location.reload();
+```localStorage.removeItem('agency_projects'); location.reload();
 
